@@ -25,29 +25,35 @@ body{
     height:10rem;
     font-size: 40px;
     text-align: center;
+    align-self: center;
 }
 .i1{
     border : 1rem #0f0 solid;
-    align-self: flex-start;
-    flex-shrink: 100;
 }
 .i2{
     border : 1rem #f00 solid;
-    align-self: flex-center;
-    transform: translateX(-13rem);
+    align-self: center;
 }
 .i3{
     border : 1rem #00f solid;
-    align-self: center;
+    align-self: flex-start;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .i4{
     border : 1rem orange solid;
-    align-self: flex-start;
-    transform: translateX(4rem);
 }
 .i5{
     border : 1rem pink solid;
-    align-self: flex-end;
+}
+.item2{
+    border: 1rem #000 dashed;
+    width: 5rem;
+    height: 5rem;
 }
 /* On pourra positioner chaque element de facon independant e detriment des proprites que le parent donne */
                      /* Valeur par defaux flex-shrinks est a 1 */
